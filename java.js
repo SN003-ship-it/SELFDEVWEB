@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
   document.body.classList.remove("is-loading");
 });
 
-// Close mobile menu when a navigation link is clicked
+// close menu on mobile after clicking a link
 document.querySelectorAll(".nav-links a").forEach((link) => {
   link.addEventListener("click", () => {
     const toggle = document.getElementById("nav-toggle");
@@ -10,7 +10,7 @@ document.querySelectorAll(".nav-links a").forEach((link) => {
   });
 });
 
-// Scroll reveal observer
+// fade in sections on scroll
 const revealObserver = new IntersectionObserver(
   (entries, observer) => {
     entries.forEach((entry) => {
@@ -25,7 +25,7 @@ const revealObserver = new IntersectionObserver(
 
 document.querySelectorAll(".reveal").forEach((el) => revealObserver.observe(el));
 
-// Lightbox controls for Self-Development & Other Subject works
+// image popup
 function openFullImage(title, tag, imageSrc) {
   const lightbox = document.getElementById("imageLightbox");
   const titleEl = document.getElementById("lightboxTitle");
@@ -59,4 +59,4 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     closeFullImage();
   }
-});
+});

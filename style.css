@@ -73,7 +73,7 @@ code {
   margin-inline: auto;
 }
 
-/* PAGE LOADER */
+/* page loader */
 .page-loader {
   position: fixed;
   inset: 0;
@@ -106,7 +106,7 @@ body:not(.is-loading) .page-loader {
   color: var(--ink-muted);
 }
 
-/* HEADER & NAVIGATION */
+/* header & navigation */
 .site-header {
   position: sticky;
   top: 0;
@@ -170,7 +170,7 @@ body:not(.is-loading) .page-loader {
   display: none;
 }
 
-/* HERO */
+/* hero */
 .hero {
   position: relative;
   padding: 4.5rem 0 4rem;
@@ -281,7 +281,7 @@ body:not(.is-loading) .page-loader {
   object-fit: contain;
 }
 
-/* SECTIONS & HEADINGS */
+/* sections & headings */
 .section {
   padding: 4.5rem 0;
 }
@@ -322,7 +322,7 @@ body:not(.is-loading) .page-loader {
   color: var(--ink-muted);
 }
 
-/* ABOUT EDITORIAL */
+/* about editorial */
 .about-editorial {
   display: grid;
   grid-template-columns: 1.1fr 1fr;
@@ -368,7 +368,7 @@ body:not(.is-loading) .page-loader {
 .note-mint { border-left-color: var(--accent-mint); }
 .note-butter { border-left-color: var(--accent-butter); }
 
-/* REFLECTION CARDS */
+/* reflection cards */
 .reflection-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -403,7 +403,7 @@ body:not(.is-loading) .page-loader {
   color: var(--ink-muted);
 }
 
-/* SELF-ASSESSMENT PANELS */
+/* self-assessment panels */
 .assessment-layout {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -446,7 +446,7 @@ body:not(.is-loading) .page-loader {
   color: var(--ink);
 }
 
-/* 3-CARD SELECTED WORKS GRIDS */
+/* work cards */
 .three-card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -526,7 +526,7 @@ body:not(.is-loading) .page-loader {
   color: var(--ink-muted);
 }
 
-/* CONTACT */
+/* contact */
 .contact-clean-list {
   background: var(--surface);
   border-radius: var(--radius-md);
@@ -569,7 +569,7 @@ body:not(.is-loading) .page-loader {
   text-decoration: underline;
 }
 
-/* LIGHTBOX */
+/* lightbox */
 .lightbox {
   display: none;
   position: fixed;
@@ -639,7 +639,7 @@ body:not(.is-loading) .page-loader {
   cursor: pointer;
 }
 
-/* FOOTER */
+/* footer */
 .site-footer {
   background: var(--bg-cream);
   border-top: 1px solid var(--border-soft);
@@ -688,7 +688,7 @@ body:not(.is-loading) .page-loader {
   font-size: 0.85rem;
 }
 
-/* REVEAL ANIMATIONS */
+/* reveal animations */
 .reveal {
   opacity: 0;
   transform: translateY(18px);
@@ -700,7 +700,7 @@ body:not(.is-loading) .page-loader {
   transform: translateY(0);
 }
 
-/* RESPONSIVE */
+/* responsive */
 @media (max-width: 900px) {
   .hero-grid,
   .about-editorial,
@@ -755,4 +755,4 @@ body:not(.is-loading) .page-loader {
   .nav-toggle:checked ~ .nav-links {
     display: flex;
   }
-}
+}
