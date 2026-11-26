@@ -2,7 +2,7 @@
 
 My portfolio for Self-Development and my other subjects.
 
-Live site: https://sn003-ship-it.github.io/SELFDEVWEB/
+Live site: [sn003-ship-it.github.io/SELFDEVWEB](https://sn003-ship-it.github.io/SELFDEVWEB/)
 
 - `index.html` - the page
 - `style.css` - styles
